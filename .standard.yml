@@ -1,2 +1,8 @@
+fix: true
+parallel: true
+format: progress
+
 ignore:
   - config/puma.rb
+  - db/schema.rb
+  - vendor/**/*
