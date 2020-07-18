@@ -1,4 +1,9 @@
 {
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
   "environments": {
     "test": {
       "scripts": {
