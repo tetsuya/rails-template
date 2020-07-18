@@ -4,6 +4,14 @@
       "plan": "heroku-postgresql"
     }
   ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/ruby"
+    }
+  ],
   "environments": {
     "test": {
       "scripts": {
