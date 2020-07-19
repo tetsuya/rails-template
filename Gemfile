@@ -7,6 +7,7 @@ gem "rails"
 gem "pg"
 
 gem "bootsnap", require: false
+# gem "image_processing"
 gem "puma"
 gem "slim-rails"
 gem "webpacker"

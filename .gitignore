@@ -1,3 +1,6 @@
+# !/storage/.keep
+# /storage/*
+
 !.keep
 *.DS_Store
 *.swo
