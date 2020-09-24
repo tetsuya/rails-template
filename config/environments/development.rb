@@ -11,6 +11,7 @@ Rails.application.configure do
   config.consider_all_requests_local = true
   config.eager_load = false
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+  config.hosts << "loopback.jp"
 
   if Rails.root.join("tmp", "caching-dev.txt").exist?
     config.action_controller.enable_fragment_cache_logging = true
