@@ -1,6 +1,9 @@
 module.exports = {
-  purge: [],
-  darkMode: false,
+  darkMode: 'media',
+  content: [
+    'app/helpers/**/*.rb',
+    'app/views/**/*'
+  ],
   theme: {
     extend: {},
   },

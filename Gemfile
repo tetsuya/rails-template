@@ -9,7 +9,7 @@ gem "pg"
 gem "bootsnap", require: false
 # gem "image_processing"
 gem "puma"
-gem "webpacker"
+gem "vite_rails"
 
 group :development, :test do
   gem "dotenv-rails"
